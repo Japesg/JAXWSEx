@@ -26,10 +26,10 @@ public class Main {
                     COLUMN_LOCATION + " text" +
                     ")");
 
-            insertPerson(statement,"Anil", 8060936, "Aldie");
-            insertPerson(statement,"Shiva", 4255325, "Woodbridge");
-            insertPerson(statement,"James", 9759038, "Ashburn");
-            insertPerson(statement,"Rishith", 4064808, "Fairfax");
+            insertPerson(statement,"Anil", 35343, "Aldie");
+            insertPerson(statement,"Shiva", 64567, "Woodbridge");
+            insertPerson(statement,"James", 43456, "Ashburn");
+            insertPerson(statement,"Rishith", 34657, "Fairfax");
 
             statement.execute("UPDATE " + TABLE_PEOPLE + " SET " +
                     COLUMN_NUMBER + "=5566789" +
