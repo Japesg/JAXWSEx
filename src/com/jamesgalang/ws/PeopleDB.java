@@ -8,6 +8,8 @@ import javax.jws.soap.SOAPBinding.Style;
 //Service Endpoint Interface
 @WebService
 @SOAPBinding(style = Style.RPC)
-public interface PeopleDB{
+public interface PeopleDB {
 
-    @WebMethod String getPeopleDB(String name);
+    @WebMethod
+    String getPeopleDB(String name);
+}

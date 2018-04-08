@@ -3,10 +3,11 @@ package com.jamesgalang.ws;
 import javax.jws.WebService;
 
 //Service Implementation
-@WebService(endpointInterface = "com.jamesgalang.ws.HelloWorld")
-public class HelloWorldImpl implements PeopleDB{
+@WebService(endpointInterface = "com.jamesgalang.ws.PeopleDB")
+public class PeopleDBImpl implements PeopleDB {
 
     @Override
     public String getPeopleDB(String name) {
-        return "//find a way to put data here? " + name;
+        return "database results for " + name;
     }
+}
