@@ -12,4 +12,6 @@ public interface PeopleDB {
 
     @WebMethod
     String getPeopleDB(String name);
+
+
 }
